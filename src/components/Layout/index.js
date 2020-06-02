@@ -2,13 +2,17 @@ import React, { Fragment, memo } from 'react'
 import PropTypes from 'prop-types'
 
 import './reset.css'
-import Header from '../header'
+import style from './style.module.css'
+
+import Header from '../Header'
 
 const Layout = ({ children }) => (
   <Fragment>
     <Header />
-    <main>
-      { children }
+    <main className={style.main}>
+      <div className={style.container}>
+        { children }
+      </div>
     </main>
   </Fragment>
 )
