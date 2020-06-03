@@ -1,0 +1,15 @@
+.social_media svg {
+  margin-right: 20px;
+}
+
+.image_container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.avatar {
+  border-radius: 10rem;
+  height: 10rem;
+  width: 10rem;
+}
