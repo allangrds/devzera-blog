@@ -3,7 +3,6 @@ import { useStaticQuery, graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
 import SEO from '../components/Seo'
-import Post from '../components/Post'
 import PostWrapper from '../components/PostWrapper'
 
 const IndexPage = () => {
@@ -12,6 +11,9 @@ const IndexPage = () => {
       allMarkdownRemark {
         edges {
           node {
+            fields {
+              slug
+            }
             frontmatter {
               date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
               description

@@ -10,6 +10,9 @@ const PostWrapper = ({ posts }) => (
     {posts.map(
       ({
         node: {
+          fields: {
+            slug,
+          },
           frontmatter: {
             date,
             description,
@@ -21,7 +24,7 @@ const PostWrapper = ({ posts }) => (
         <Post
           date={date}
           description={description}
-          slug="/about/"
+          slug={slug}
           timeToRead={timeToRead}
           title={title}
         />
