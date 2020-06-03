@@ -1,0 +1,32 @@
+.wrapper {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.time {
+  color: #757E7B;
+  font-size: 0.9rem;
+}
+
+.title {
+  color: #292C2B;
+  font-size: 2.3rem;
+  margin-bottom: 10px;
+}
+
+.description {
+  color: #757E7B;
+  font-size: 1.3rem;
+  font-weight: lighter;
+  line-height: 30px;
+  margin-bottom: 50px;
+}
+
+.post h1 {
+  font-size: 1.7rem;
+}
+
+.post h2 {
+  font-size: 1.4rem;
+}

@@ -16,17 +16,15 @@ const Post = ({
     to={slug}
   >
     <section className={style.wrapper}>
-      <span>
-        <time className={style.time}>
-          { date } - { timeToRead } minuto(s) de leitura
-        </time>
-        <h1 className={style.title}>
-          { title }
-        </h1>
-        <h2 className={style.description}>
-          { description }
-        </h2>
-      </span>
+      <time className={style.time}>
+        { date } - { timeToRead } minuto(s) de leitura
+      </time>
+      <h1 className={style.title}>
+        { title }
+      </h1>
+      <h2 className={style.description}>
+        { description }
+      </h2>
     </section>
   </Link>
 )

@@ -102,7 +102,7 @@ const AboutPage = () => {
 
   return (
     <Layout>
-      <SEO title="Sobre | Devzera" />
+      <SEO title="Sobre" />
       <div className={style.image_container}>
         <Img
           className={style.avatar}
