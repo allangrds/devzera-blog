@@ -1,0 +1,53 @@
+.box {
+  display: flex;
+  flex-direction: row;
+}
+
+.box.send {
+  justify-content: flex-start;
+}
+
+.box.receive {
+  justify-content: flex-end;
+}
+
+.message {
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  position: relative;
+  margin: 8px 0;
+  display: inline;
+  max-width: 800px;
+}
+
+.message:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+.message.send {
+  background: #fff;
+  border-radius: 0px 5px 5px 5px;
+}
+
+.message.send:after {
+  border-width: 0px 10px 10px 0;
+  border-color: transparent #fff transparent transparent;
+  top: 0;
+  left: -10px;
+}
+
+.message.receive {
+  background: #e1ffc7;
+  border-radius: 5px 0px 5px 5px;
+}
+
+.message.receive:after {
+  border-width: 0px 0 10px 10px;
+  border-color: transparent transparent transparent #e1ffc7;
+  top: 0;
+  right: -10px;
+}
