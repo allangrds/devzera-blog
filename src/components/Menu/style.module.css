@@ -1,0 +1,36 @@
+.navigation {
+  background-color: #fff;;
+  bottom: 0;
+  border-radius: 20px 20px 0 0;
+  box-shadow: 0 -3px 10px rgba(0, 0, 0, 0.1);
+  display: none;
+  padding: 30px 30px;
+  position: fixed;
+  width: 100%;
+}
+
+@media screen and (max-width: 522px) {
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 523px) and (max-width: 768px) {
+  .navigation {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+.link {
+  color: #292C2B;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+}
+
+.name {
+  margin-top: 5px;
+}

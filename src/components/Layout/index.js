@@ -5,6 +5,7 @@ import './reset.css'
 import style from './style.module.css'
 
 import Header from '../Header'
+import Menu from '../Menu'
 
 const Layout = ({ children }) => (
   <Fragment>
@@ -14,6 +15,7 @@ const Layout = ({ children }) => (
         { children }
       </div>
     </main>
+    <Menu />
   </Fragment>
 )
 
