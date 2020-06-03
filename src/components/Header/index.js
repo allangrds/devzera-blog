@@ -1,6 +1,9 @@
 import React, { memo } from 'react'
 import { Link } from 'gatsby'
 
+import FaceboookIcon from '../../assets/images/facebook.svg'
+import InstagramIcon from '../../assets/images/instagram.svg'
+import TwitterIcon from '../../assets/images/twitter.svg'
 import style from './style.module.css'
 
 const Header = () => (
@@ -30,6 +33,29 @@ const Header = () => (
             </Link>
           </li>
         </ul>
+        <div className={style.social_media}>
+          <a href="/" target="_blank">
+            <FaceboookIcon
+              fill="white"
+              width="1.5rem"
+              height="1.5rem"
+            />
+          </a>
+          <a href="/" target="_blank">
+            <TwitterIcon
+              fill="white"
+              width="1.5rem"
+              height="1.5rem"
+            />
+          </a>
+          <a href="/" target="_blank">
+            <InstagramIcon
+              fill="white"
+              width="1.5rem"
+              height="1.5rem"
+            />
+          </a>
+        </div>
       </nav>
     </div>
   </header>
