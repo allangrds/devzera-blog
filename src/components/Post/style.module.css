@@ -1,3 +1,5 @@
+@import "../../assets/styles/colors.css";
+
 .link {
   display: flex;
   text-decoration: none;
@@ -6,7 +8,7 @@
 }
 
 .wrapper {
-  background-color: #fff;
+  background-color: var(--white-1);
   border-radius: 5px;
   padding: 20px;
   transition: box-shadow 0.2s ease-in-out;
@@ -18,18 +20,18 @@
 }
 
 .time {
-  color: #757E7B;
+  color: var(--gray-1);
   font-size: 0.9rem;
 }
 
 .title {
-  color: #292C2B;
+  color: var(--black-1);
   font-size: 1.7rem;
   margin-bottom: 20px;
 }
 
 .description {
-  color: #757E7B;
+  color: var(--gray-1);
   font-size: 1.1rem;
   font-weight: normal;
   line-height: 30px;

@@ -1,3 +1,5 @@
+@import "../../assets/styles/colors.css";
+
 .wrapper {
   display: flex;
   justify-content: space-between;
@@ -5,7 +7,7 @@
 }
 
 .link {
-  border: 1px solid #663399;
+  border: 1px solid var(--purple);
   border-radius: 5px;
   font-size: 1rem;
   padding: 10px 20px;
@@ -13,14 +15,14 @@
 }
 
 .link:hover {
-  background-color: #663399;
-  color: #fff;
+  background-color: var(--purple);
+  color: var(--white-1);
   transition: background-color 0.2s linear;
 }
 
 .link,
 .page_info {
-  color: #663399;
+  color: var(--purple);
 }
 
 @media screen and (min-width: 874px) {

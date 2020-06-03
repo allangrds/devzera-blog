@@ -1,5 +1,7 @@
+@import "../../assets/styles/colors.css";
+
 .header {
-  background-color: #663399;
+  background-color: var(--purple);
   padding-left: 30px;
   padding-right: 30px;
   padding-top: 40px;
@@ -24,7 +26,7 @@
 }
 
 .title, .subtitle {
-  color: #fff;
+  color: var(--white-1);
 }
 
 .navigation {
@@ -45,7 +47,7 @@
 
 .link {
   text-decoration: none;
-  color: #fff;
+  color: var(--white-1);
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   text-transform: uppercase;
   font-weight: bold;

@@ -1,5 +1,14 @@
 module.exports = {
   plugins: [
+    {
+      options: {
+        postCssPlugins: [
+          require('postcss-preset-env')({ stage: 0 }),
+          require('postcss-nested')
+        ],
+      },
+      resolve: 'gatsby-plugin-postcss',
+    },
     'gatsby-plugin-react-helmet',
     {
       options: {

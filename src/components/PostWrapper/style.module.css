@@ -1,3 +1,5 @@
+@import "../../assets/styles/colors.css";
+
 .wrapper {
   column-gap: 20px;
   display: grid;

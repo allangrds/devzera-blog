@@ -45,9 +45,6 @@ exports.createPages = ({ actions, graphql }) => {
   `).then((result) => {
     const posts = result.data.allMarkdownRemark.edges
 
-    console.log('post')
-    console.log(posts)
-
     posts.forEach(({ node }) => {
       createPage({
         component: path.resolve('./src/templates/BlogPost/index.js'),

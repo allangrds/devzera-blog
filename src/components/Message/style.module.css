@@ -1,3 +1,5 @@
+@import "../../assets/styles/colors.css";
+
 .box {
   display: flex;
   flex-direction: row;
@@ -29,25 +31,25 @@
 }
 
 .message.send {
-  background: #fff;
+  background: var(--white-1);
   border-radius: 0px 5px 5px 5px;
 }
 
 .message.send:after {
   border-width: 0px 10px 10px 0;
-  border-color: transparent #fff transparent transparent;
+  border-color: transparent var(--white-1) transparent transparent;
   top: 0;
   left: -10px;
 }
 
 .message.receive {
-  background: #e1ffc7;
+  background: var(--white-3);
   border-radius: 5px 0px 5px 5px;
 }
 
 .message.receive:after {
   border-width: 0px 0 10px 10px;
-  border-color: transparent transparent transparent #e1ffc7;
+  border-color: transparent transparent transparent var(--white-3);
   top: 0;
   right: -10px;
 }
