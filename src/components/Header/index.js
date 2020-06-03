@@ -20,7 +20,7 @@ const Header = () => (
             </Link>
           </li>
           <li className={style.item}>
-            <Link to="/sections" className={style.link}>
+            <Link to="/" className={style.link}>
               Seções
             </Link>
           </li>
