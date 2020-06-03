@@ -1,0 +1,38 @@
+.link {
+  display: flex;
+  text-decoration: none;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.wrapper {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  transition: box-shadow 0.2s ease-in-out;
+  width: 100%;
+}
+
+.wrapper:hover {
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.3);
+}
+
+.time {
+  color: #757E7B;
+  font-size: 0.9rem;
+}
+
+
+.title {
+  color: #292C2B;
+  font-size: 1.7rem;
+  margin-bottom: 20px;
+}
+
+.description {
+  color: #757E7B;
+  font-size: 1.1rem;
+  font-weight: normal;
+  line-height: 30px;
+  margin-bottom: 0;
+}

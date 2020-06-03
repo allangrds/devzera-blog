@@ -1,0 +1,17 @@
+.wrapper {
+  column-gap: 20px;
+  display: grid;
+  grid-template-areas: "div div div";
+}
+
+@media screen and (max-width: 1283px) {
+  .wrapper {
+    grid-template-areas: "div div";
+  }
+}
+
+@media screen and (max-width: 873px) {
+  .wrapper {
+    grid-template-areas: "div";
+  }
+}

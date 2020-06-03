@@ -8,6 +8,13 @@ module.exports = {
       },
       resolve: 'gatsby-source-filesystem',
     },
+    {
+      options: {
+        name: 'posts',
+        path: `${__dirname}/posts`,
+      },
+      resolve: 'gatsby-source-filesystem',
+    },
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
     {
@@ -30,6 +37,12 @@ module.exports = {
         },
       },
       resolve: 'gatsby-plugin-react-svg',
+    },
+    {
+      options: {
+        plugins: [],
+      },
+      resolve: 'gatsby-transformer-remark',
     },
   ],
   siteMetadata: {
