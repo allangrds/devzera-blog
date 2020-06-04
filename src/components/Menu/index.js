@@ -35,7 +35,7 @@ const Menu = () => (
         Pesquisar
       </span>
     </Link>
-    <Link
+    {/* <Link
       to="/sections"
       className={style.link}
     >
@@ -47,7 +47,7 @@ const Menu = () => (
       <span className={style.name}>
         Seções
       </span>
-    </Link>
+    </Link> */}
     <Link
       to="/about"
       className={style.link}

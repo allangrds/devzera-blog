@@ -93,6 +93,7 @@ module.exports = {
       resolve: 'gatsby-transformer-remark',
     },
     'gatsby-plugin-netlify-cms',
+    'gatsby-plugin-feed',
   ],
   siteMetadata: {
     author: '@allangrds',

@@ -4,6 +4,7 @@ import { Link } from 'gatsby'
 import FaceboookIcon from '../../assets/images/facebook.svg'
 import InstagramIcon from '../../assets/images/instagram.svg'
 import TwitterIcon from '../../assets/images/twitter.svg'
+import RssIcon from '../../assets/images/rss.svg'
 import style from './style.module.css'
 
 const Header = () => (
@@ -22,11 +23,11 @@ const Header = () => (
               Home
             </Link>
           </li>
-          <li className={style.item}>
+          {/* <li className={style.item}>
             <Link to="/sections" className={style.link}>
               Seções
             </Link>
-          </li>
+          </li> */}
           <li className={style.item}>
             <Link to="/about" className={style.link}>
               Sobre
@@ -55,6 +56,13 @@ const Header = () => (
           </a>
           <a href="/" target="_blank">
             <InstagramIcon
+              fill="white"
+              width="1.5rem"
+              height="1.5rem"
+            />
+          </a>
+          <a href="/rss.xml" target="_blank">
+            <RssIcon
               fill="white"
               width="1.5rem"
               height="1.5rem"
