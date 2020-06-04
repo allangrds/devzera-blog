@@ -95,6 +95,7 @@ module.exports = {
   siteMetadata: {
     author: '@allangrds',
     description: 'Aprendendo e compartilhando tecnologia',
+    siteUrl: 'https://blog.devzera.com.br',
     title: 'Devzera',
   },
 }

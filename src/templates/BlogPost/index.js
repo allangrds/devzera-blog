@@ -12,7 +12,11 @@ const BlogPost = ({ data }) => {
 
   return (
     <Layout>
-      <SEO title={post.frontmatter.title} />
+      <SEO
+        title={post.frontmatter.title}
+        description={post.frontmatter.description}
+        image={post.frontmatter.image}
+      />
       <div className={style.wrapper}>
         <span>
           <time className={style.time}>
