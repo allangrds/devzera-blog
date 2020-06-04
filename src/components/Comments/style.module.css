@@ -1,0 +1,20 @@
+@import "../../assets/styles/colors.css";
+
+.wrapper {
+  margin: auto;
+  padding: 30px 0 0 0;
+
+  iframe[src="ads-iframe"] {
+    display: none;
+  }
+
+  #disqus_thread {
+    a {
+      color: var(--color-purlple) !important;
+    }
+  }
+}
+
+.title {
+  color: var(--black-1);
+}

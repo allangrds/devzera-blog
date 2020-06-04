@@ -1,5 +1,7 @@
+@import "../../assets/styles/colors.css";
+
 .navigation {
-  background-color: #fff;;
+  background-color: var(--white-1);;
   bottom: 0;
   border-radius: 20px 20px 0 0;
   box-shadow: 0 -3px 10px rgba(0, 0, 0, 0.1);
@@ -24,7 +26,7 @@
 }
 
 .link {
-  color: #292C2B;
+  color: var(--black-1);
   display: flex;
   flex-direction: column;
   align-items: center;

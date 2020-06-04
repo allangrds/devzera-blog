@@ -1,0 +1,36 @@
+@import "../../assets/styles/colors.css";
+
+.wrapper {
+  background-color: var(--white-1);
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.time {
+  color: var(--gray-1);
+  font-size: 0.9rem;
+}
+
+.title {
+  color: var(--black-1);
+  font-size: 2.3rem;
+  margin-bottom: 10px;
+}
+
+.description {
+  color: var(--gray-1);
+  font-size: 1.3rem;
+  font-weight: lighter;
+  line-height: 30px;
+  margin-bottom: 50px;
+}
+
+.post {
+  h1 {
+    font-size: 1.7rem;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+}

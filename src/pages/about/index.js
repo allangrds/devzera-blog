@@ -38,6 +38,53 @@ const SocialMedias = () => (
   </div>
 )
 
+const Messages = () => (
+  <div className={style.wrapper}>
+    <Message
+      type="receive"
+      message={{
+        content: 'Quem é você?',
+        type: 'string',
+      }}
+    />
+    <Message
+      type="send"
+      message={{
+        content: 'Meu nome é Allan Ramos, nascido em Caraguatatuba/SP.Sou programador front-end.',
+        type: 'string',
+      }}
+    />
+    <Message
+      type="receive"
+      message={{
+        content: 'Qual o objetivo do blog?',
+        type: 'string',
+      }}
+    />
+    <Message
+      type="send"
+      message={{
+        content: 'Compartilhar os paranauê que eu aprender.',
+        type: 'string',
+      }}
+    />
+    <Message
+      type="receive"
+      message={{
+        content: 'Como posso te encontrar nas redes sociais?',
+        type: 'string',
+      }}
+    />
+    <Message
+      type="send"
+      message={{
+        content: <SocialMedias />,
+        type: 'node',
+      }}
+    />
+  </div>
+)
+
 const AboutPage = () => {
   const { avatarImage } = useStaticQuery(
     graphql`
@@ -55,55 +102,14 @@ const AboutPage = () => {
 
   return (
     <Layout>
-      <SEO title="Sobre | Devzera" />
+      <SEO title="Sobre" />
       <div className={style.image_container}>
         <Img
           className={style.avatar}
           fluid={avatarImage.childImageSharp.fluid}
         />
       </div>
-      <Message
-        type="receive"
-        message={{
-          content: 'Quem é você?',
-          type: 'string',
-        }}
-      />
-      <Message
-        type="send"
-        message={{
-          content: 'Meu nome é Allan Ramos, nascido em Caraguatatuba/SP.Sou programador front-end.',
-          type: 'string',
-        }}
-      />
-      <Message
-        type="receive"
-        message={{
-          content: 'Qual o objetivo do blog?',
-          type: 'string',
-        }}
-      />
-      <Message
-        type="send"
-        message={{
-          content: 'Compartilhar os paranauê que eu aprender.',
-          type: 'string',
-        }}
-      />
-      <Message
-        type="receive"
-        message={{
-          content: 'Como posso te encontrar nas redes sociais?',
-          type: 'string',
-        }}
-      />
-      <Message
-        type="send"
-        message={{
-          content: <SocialMedias />,
-          type: 'node',
-        }}
-      />
+      <Messages />
     </Layout>
   )
 }

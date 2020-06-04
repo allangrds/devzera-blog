@@ -1,0 +1,39 @@
+@import "../../assets/styles/colors.css";
+
+.link {
+  display: flex;
+  text-decoration: none;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.wrapper {
+  background-color: var(--white-1);
+  border-radius: 5px;
+  padding: 20px;
+  transition: box-shadow 0.2s ease-in-out;
+  width: 100%;
+}
+
+.wrapper:hover {
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.3);
+}
+
+.time {
+  color: var(--gray-1);
+  font-size: 0.9rem;
+}
+
+.title {
+  color: var(--black-1);
+  font-size: 1.7rem;
+  margin-bottom: 20px;
+}
+
+.description {
+  color: var(--gray-1);
+  font-size: 1.1rem;
+  font-weight: normal;
+  line-height: 30px;
+  margin-bottom: 0;
+}

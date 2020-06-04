@@ -32,6 +32,11 @@ const Header = () => (
               Sobre
             </Link>
           </li>
+          <li className={style.item}>
+            <Link to="/search" className={style.link}>
+              Pesquisar
+            </Link>
+          </li>
         </ul>
         <div className={style.social_media}>
           <a href="/" target="_blank">
