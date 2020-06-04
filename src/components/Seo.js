@@ -35,16 +35,20 @@ function SEO ({
           name: 'description',
         },
         {
+          content: 'Devzera',
+          property: 'og:site_name',
+        },
+        {
           content: title,
           property: 'og:title',
         },
         {
-          content: metaDescription,
-          property: 'og:description',
+          content: 'blog',
+          property: 'og:type',
         },
         {
-          content: 'website',
-          property: 'og:type',
+          content: metaDescription,
+          property: 'og:description',
         },
         {
           content: 'summary_large_image',
