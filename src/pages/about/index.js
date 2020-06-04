@@ -50,7 +50,7 @@ const Messages = () => (
     <Message
       type="send"
       message={{
-        content: 'Meu nome é Allan Ramos, nascido em Caraguatatuba/SP.Sou programador front-end.',
+        content: 'Meu nome é Allan Ramos, sou nascido em Caraguatatuba/SP. Programador front-end e arranhador de back-end.',
         type: 'string',
       }}
     />
