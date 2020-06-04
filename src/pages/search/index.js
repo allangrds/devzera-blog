@@ -2,11 +2,11 @@ import React, { memo } from 'react'
 
 import Layout from '../../components/Layout'
 import Search from '../../components/Search'
-
-import style from './style.module.css'
+import SEO from '../../components/Seo'
 
 const SearchPage = () => (
   <Layout>
+    <SEO title="Pesquisar posts" />
     <Search />
   </Layout>
 )
