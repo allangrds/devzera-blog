@@ -6,6 +6,10 @@
   justify-content: center;
 }
 
+.white {
+  background-color: var(--white-1);
+}
+
 .container {
   max-width: 1024px;
   width: 100%;

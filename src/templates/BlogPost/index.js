@@ -11,7 +11,7 @@ const BlogPost = ({ data }) => {
   const post = data.markdownRemark
 
   return (
-    <Layout>
+    <Layout whiteBackground>
       <SEO
         title={post.frontmatter.title}
         description={post.frontmatter.description}
