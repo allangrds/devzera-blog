@@ -1,13 +1,14 @@
 import React, { memo } from 'react'
 
 import Layout from '../../components/Layout'
+import Search from '../../components/Search'
 
 import style from './style.module.css'
 
-const AboutPage = () => (
+const SearchPage = () => (
   <Layout>
-    <h1 className={style.title}>Pesquisar</h1>
+    <Search />
   </Layout>
 )
 
-export default memo(AboutPage)
+export default memo(SearchPage)

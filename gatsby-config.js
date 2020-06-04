@@ -1,3 +1,7 @@
+require('dotenv').config()
+
+const queries = require('./src/utils/algolia_queries')
+
 module.exports = {
   plugins: [
     {
@@ -33,6 +37,17 @@ module.exports = {
     'gatsby-plugin-react-helmet',
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
+    {
+      options: {
+        apiKey: process.env.ALGOLIA_ADMIN_KEY,
+        appId: process.env.GATSBY_ALGOLIA_APP_ID,
+        chunkSize: 10000, // default: 1000
+        enablePartialUpdates: true,
+        indexName: process.env.GATSBY_ALGOLIA_INDEX_NAME,
+        queries,
+      },
+      resolve: 'gatsby-plugin-algolia-search',
+    },
     {
       options: {
         background_color: '#663399',

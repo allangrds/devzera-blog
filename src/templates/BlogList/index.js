@@ -5,6 +5,7 @@ import Layout from '../../components/Layout'
 import SEO from '../../components/Seo'
 import PostWrapper from '../../components/PostWrapper'
 import Pagination from '../../components/Pagination'
+import Search from '../../components/Search'
 
 const BlogList = (props) => {
   const postList = props.data.allMarkdownRemark.edges
