@@ -50,16 +50,17 @@ module.exports = {
     },
     {
       options: {
-        background_color: '#663399',
+        background_color: '#16202c',
         display: 'minimal-ui',
         icon: 'src/assets/images/gatsby-icon.png', // This path is relative to the root of the site.
-        name: 'gatsby-starter-default',
-        short_name: 'starter',
+        name: 'Devzera',
+        short_name: 'Devzera',
         start_url: '/',
-        theme_color: '#663399',
+        theme_color: '#16202c',
       },
       resolve: 'gatsby-plugin-manifest',
     },
+    'gatsby-plugin-sitemap',
     'gatsby-plugin-offline',
     {
       options: {
