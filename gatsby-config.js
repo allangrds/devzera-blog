@@ -92,6 +92,7 @@ module.exports = {
       },
       resolve: 'gatsby-transformer-remark',
     },
+    'gatsby-plugin-netlify-cms',
   ],
   siteMetadata: {
     author: '@allangrds',

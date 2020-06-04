@@ -30,7 +30,7 @@ const settings = { attributesToSnippet: ['excerpt:20'] }
 
 const queries = [
   {
-    indexName: 'Posts',
+    indexName: process.env.GATSBY_ALGOLIA_INDEX_NAME,
     query: postQuery,
     settings,
     transformer: ({ data }) => flatten(data.posts.edges),
