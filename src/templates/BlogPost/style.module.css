@@ -4,6 +4,7 @@
   background-color: var(--white-1);
   border-radius: 5px;
   margin: auto;
+  max-width: 768px;
 }
 
 .time {
@@ -43,5 +44,16 @@
   p {
     margin: 0px auto 1.6rem;
     line-height: 1.7;
+  }
+
+  pre {
+    margin-bottom: 1.6rem;
+  }
+
+  p,
+  a,
+  span,
+  pre > code{
+    font-size: 1.15rem;
   }
 }
