@@ -1,7 +1,7 @@
 ---
 title: Axios ou fetch()
 description: Qual você deveria usar?
-date: 2020-06-04 06:54:30
+date: 2020-06-04 18:54:30
 category: javascript
 ---
 Esse artigo é uma tradução livre de [Axios or fetch(): Which should you use?](https://blog.logrocket.com/axios-or-fetch-api/)por [Faraz Kelhini](https://blog.logrocket.com/author/farazkelhini/).
