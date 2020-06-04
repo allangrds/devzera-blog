@@ -23,11 +23,11 @@ const Header = () => (
               Home
             </Link>
           </li>
-          <li className={style.item}>
+          {/* <li className={style.item}>
             <Link to="/sections" className={style.link}>
               Seções
             </Link>
-          </li>
+          </li> */}
           <li className={style.item}>
             <Link to="/about" className={style.link}>
               Sobre
