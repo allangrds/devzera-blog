@@ -2,14 +2,11 @@ module.exports = {
   plugins: [
     {
       options: {
-        postCssPlugins: [
-          require('postcss-preset-env')({ stage: 0 }),
-          require('postcss-nested')
-        ],
+        name: 'uploads',
+        path: `${__dirname}/static/assets/img`,
       },
-      resolve: 'gatsby-plugin-postcss',
+      resolve: 'gatsby-source-filesystem',
     },
-    'gatsby-plugin-react-helmet',
     {
       options: {
         name: 'images',
@@ -24,6 +21,16 @@ module.exports = {
       },
       resolve: 'gatsby-source-filesystem',
     },
+    {
+      options: {
+        postCssPlugins: [
+          require('postcss-preset-env')({ stage: 0 }),
+          require('postcss-nested'),
+        ],
+      },
+      resolve: 'gatsby-plugin-postcss',
+    },
+    'gatsby-plugin-react-helmet',
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
     {
@@ -49,7 +56,23 @@ module.exports = {
     },
     {
       options: {
-        plugins: [],
+        plugins: [
+          {
+            options: {
+              name: 'uploads',
+            },
+            resolve: 'gatsby-remark-relative-images',
+          },
+          {
+            options: {
+              linkImagesToOriginal: false,
+              maxWidth: 984,
+            },
+            resolve: 'gatsby-remark-images',
+          },
+          'gatsby-remark-lazy-load',
+          'gatsby-remark-prismjs',
+        ],
       },
       resolve: 'gatsby-transformer-remark',
     },

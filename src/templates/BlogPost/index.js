@@ -3,6 +3,7 @@ import { graphql } from 'gatsby'
 
 import Layout from '../../components/Layout'
 import SEO from '../../components/Seo'
+import Comments from '../../components/Comments'
 
 import style from './style.module.css'
 
@@ -28,6 +29,10 @@ const BlogPost = ({ data }) => {
           <div dangerouslySetInnerHTML={{ __html: post.html }}></div>
         </section>
       </div>
+      <Comments
+        title={post.frontmatter.title}
+        url={post.fields.slug}
+      />
     </Layout>
   )
 }
@@ -35,6 +40,9 @@ const BlogPost = ({ data }) => {
 export const query = graphql`
   query Post($slug: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
+      fields {
+        slug
+      }
       frontmatter {
         date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
         description
