@@ -6,30 +6,30 @@ import Layout from '../../components/Layout'
 import Message from '../../components/Message'
 import SEO from '../../components/Seo'
 
-import FaceboookIcon from '../../assets/images/facebook.svg'
-import InstagramIcon from '../../assets/images/instagram.svg'
 import TwitterIcon from '../../assets/images/twitter.svg'
+import LinkedinIcon from '../../assets/images/linkedin.svg'
 
 import style from './style.module.css'
 
 const SocialMedias = () => (
   <div className={style.social_media}>
-    <a href="/" target="_blank">
-      <FaceboookIcon
+    <a
+      href="https://www.linkedin.com/in/allangabrielrds/"
+      rel="noreferrer"
+      target="_blank"
+    >
+      <LinkedinIcon
         fill="#292C2B"
         width="1.5rem"
         height="1.5rem"
       />
     </a>
-    <a href="/" target="_blank">
+    <a
+      href="https://twitter.com/allangrds"
+      rel="noreferrer"
+      target="_blank"
+    >
       <TwitterIcon
-        fill="#292C2B"
-        width="1.5rem"
-        height="1.5rem"
-      />
-    </a>
-    <a href="/" target="_blank">
-      <InstagramIcon
         fill="#292C2B"
         width="1.5rem"
         height="1.5rem"

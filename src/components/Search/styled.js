@@ -11,6 +11,9 @@ const SearchWrapper = styled.section`
     height: auto;
     width: 100%;
   }
+  .ais-Stats .ais-Stats-text {
+    color: #000000 !important;
+  }
   .ais-Stats {
     margin-bottom: 20px;
   }

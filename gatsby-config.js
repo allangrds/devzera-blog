@@ -94,6 +94,7 @@ module.exports = {
     },
     'gatsby-plugin-netlify-cms',
     'gatsby-plugin-feed',
+    'gatsby-plugin-robots-txt',
   ],
   siteMetadata: {
     author: '@allangrds',
