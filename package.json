@@ -19,6 +19,7 @@
     "gatsby-plugin-postcss": "2.3.3",
     "gatsby-plugin-react-helmet": "3.3.2",
     "gatsby-plugin-react-svg": "3.0.0",
+    "gatsby-plugin-robots-txt": "1.5.1",
     "gatsby-plugin-sharp": "2.6.9",
     "gatsby-plugin-sitemap": "2.4.4",
     "gatsby-remark-images": "3.3.9",
