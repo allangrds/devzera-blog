@@ -40,7 +40,7 @@ const Header = () => (
           </li>
         </ul>
         <div className={style.social_media}>
-          <a href="/" target="_blank">
+          {/* <a href="/" target="_blank">
             <FaceboookIcon
               fill="white"
               width="1.5rem"
@@ -60,7 +60,7 @@ const Header = () => (
               width="1.5rem"
               height="1.5rem"
             />
-          </a>
+          </a> */}
           <a href="/rss.xml" target="_blank">
             <RssIcon
               fill="white"
