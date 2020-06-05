@@ -95,6 +95,15 @@ module.exports = {
     'gatsby-plugin-netlify-cms',
     'gatsby-plugin-feed',
     'gatsby-plugin-robots-txt',
+    {
+      options: {
+        defaultDataLayer: {
+          platform: 'gatsby',
+        },
+        id: 'GTM-MXKWJSL',
+      },
+      resolve: 'gatsby-plugin-google-tagmanager',
+    },
   ],
   siteMetadata: {
     author: '@allangrds',
