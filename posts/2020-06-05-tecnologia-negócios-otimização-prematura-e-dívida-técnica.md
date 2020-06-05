@@ -50,4 +50,4 @@ Abrace a dívida técnica para crescer, mas saiba deixá-la quando tiver crescid
 
 ## Minha talk
 
-[![Otimização prematura e dívida técnica](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=RCNoTqd57P0&feature=emb_title)
+https://youtu.be/RCNoTqd57P0
