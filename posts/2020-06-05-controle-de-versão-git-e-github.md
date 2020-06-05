@@ -1,7 +1,7 @@
 ---
 title: Controle de Versão,Git e Github
 description: O que é tudo isso?
-date: 2020-06-05 12:30:18
+date: 2020-06-05T12:30:18.000Z
 category: desenvolvimento
 ---
 Lembro de quando estava fazendo um curso técnico e estava desenvolvendo um projeto com outro 2 colegas. Cada um pegou uma funcionalidade diferente, mas com partes que eram iguais. Como fizemos? Um ficou responsável por fazer essa parte comum entre as 3 funcionalidades, e os outros 2 simularam essa parte e continuaram o desenvolvimento. Ao final de tudo tínhamos 3 pastas, e precisamos gastar um tempinho pra juntar o que foi feito.
@@ -61,7 +61,7 @@ Segue abaixo alguns termos que você verá muitas vezes no terminal de comando e
 
 ## Github
 
-O **controle de versão** é o tipo de sistema que nos ajuda com o versionamento, o **Git** é a tecnologia que implementa esse conceito de versionamento, com seus próprios comandos. O que falta agora?
+O **controle de versão** é o tipo de sistema que nos ajuda com o versionamento, o **Git** é a tecnologia que implementa esse conceito de versionamento com seus próprios comandos. O que falta agora?
 
 Um lugar para armazenar os repositórios.
 
