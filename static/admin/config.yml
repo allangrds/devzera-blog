@@ -28,11 +28,13 @@ collections:
         name: "category",
         widget: "select",
         options: [
-          "javascript",
           "carreira",
+          "controle de versão",
+          "css",
           "desenvolvimento",
-          "outros",
           "devops",
+          "javascript",
+          "outros",
         ],
       }
       - { label: "Body", name: "body", widget: "markdown" }
