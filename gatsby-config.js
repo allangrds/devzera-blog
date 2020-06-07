@@ -88,6 +88,17 @@ module.exports = {
           },
           'gatsby-remark-lazy-load',
           'gatsby-remark-prismjs',
+          {
+            options: {
+              customTransformers: [
+                // Your custom transformers
+              ],
+              services: {
+                // The service-specific options by the name of the service
+              },
+            },
+            resolve: 'gatsby-remark-embedder',
+          },
         ],
       },
       resolve: 'gatsby-transformer-remark',
