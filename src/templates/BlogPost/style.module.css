@@ -60,4 +60,10 @@
     font-size: 1.15rem;
     line-height: 1.7;
   }
+
+  blockquote {
+    margin-left: 0;
+    padding-left: 1rem;
+    border-left: 5px solid var(--purple);
+  }
 }
