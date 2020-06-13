@@ -40,21 +40,29 @@ const Header = () => (
           </li>
         </ul>
         <div className={style.social_media}>
-          {/* <a href="/" target="_blank">
+          <a
+            href="https://www.facebook.com/Devzera-107366934342545/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <FaceboookIcon
               fill="white"
               width="1.5rem"
               height="1.5rem"
             />
           </a>
-          <a href="/" target="_blank">
+          <a
+            href="https://twitter.com/devzera1"
+            target="_blank"
+            rel="noreferrer"
+          >
             <TwitterIcon
               fill="white"
               width="1.5rem"
               height="1.5rem"
             />
           </a>
-          <a href="/" target="_blank">
+          {/* <a href="/" target="_blank">
             <InstagramIcon
               fill="white"
               width="1.5rem"
