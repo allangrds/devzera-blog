@@ -2,17 +2,20 @@ import React, { memo } from 'react'
 import { Link } from 'gatsby'
 
 import FaceboookIcon from '../../assets/images/facebook.svg'
-import InstagramIcon from '../../assets/images/instagram.svg'
 import TwitterIcon from '../../assets/images/twitter.svg'
 import RssIcon from '../../assets/images/rss.svg'
+import LogoIcon from '../../assets/images/logo.svg'
 import style from './style.module.css'
 
 const Header = () => (
   <header className={style.header}>
     <div className={style.content}>
-      <h1 className={style.title}>
-        Devzera
-      </h1>
+      <Link to="/">
+        <LogoIcon
+          width="13rem"
+          height="8rem"
+        />
+      </Link>
       <h2 className={style.subtitle}>
         Aprendendo e compartilhando tecnologia
       </h2>
