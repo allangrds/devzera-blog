@@ -1,6 +1,6 @@
 ---
 title: Uma lista comovente de links para estudar tecnologia
-date: 2019-07-31 14:48:00
+date: 2020-07-31 14:48:00
 category: carreira
 ---
 > Você teria links pra quem está começando com programação?— disse alguém.
