@@ -1,7 +1,7 @@
 ---
 title: "Um checklist de um Software Enginner Senior: parte 1"
 date: 2020-06-23 08:48:38
-category: desenvolvimento
+category: carreira
 ---
 Esse post é uma tradução do texto[A Senior Engineer’s CheckList](https://littleblah.com/post/2019-09-01-senior-engineer-checklist/), publicado pelo site [LittleBlah](https://littleblah.com/).
 
